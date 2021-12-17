@@ -36,7 +36,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
     sorted = false
   }
   salesforce.Picklist SLA__c {
@@ -70,7 +70,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
     sorted = false
   }
   salesforce.Picklist Active__c {
@@ -94,7 +94,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
     sorted = false
   }
   salesforce.Number NumberofLocations__c {
@@ -108,7 +108,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
   }
   salesforce.Picklist UpsellOpportunity__c {
     apiName = "Account.UpsellOpportunity__c"
@@ -136,7 +136,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
     sorted = false
   }
   salesforce.Text SLASerialNumber__c {
@@ -150,7 +150,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
   }
   salesforce.Date SLAExpirationDate__c {
     apiName = "Account.SLAExpirationDate__c"
@@ -160,7 +160,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
   }
   salesforce.Number Average_Age__c {
     apiName = "Account.Average_Age__c"
@@ -173,7 +173,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
   }
   salesforce.FormulaText Name_Formula__c {
     apiName = "Account.Name_Formula__c"
@@ -187,7 +187,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     formulaTreatBlanksAs = "BlankAsZero"
-    trackHistory = "false"
+    trackHistory = "true"
     _hidden_value = true
   }
   salesforce.Email really_not_used__c {
@@ -199,7 +199,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
   }
   salesforce.FormulaText Priority_Formula__c {
     apiName = "Account.Priority_Formula__c"
@@ -213,7 +213,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     formulaTreatBlanksAs = "BlankAsZero"
-    trackHistory = "false"
+    trackHistory = "true"
     _hidden_value = true
     _generated_dependencies = [
       {
@@ -230,7 +230,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
     visibleLines = 3
   }
   salesforce.DateTime My_Date_Time__c {
@@ -241,7 +241,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
   }
   salesforce.Text saltoQuickStartField__c {
     apiName = "Account.saltoQuickStartField__c"
@@ -255,7 +255,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
   }
   salesforce.Lookup original_lead__c {
     apiName = "Account.original_lead__c"
@@ -270,7 +270,7 @@ type salesforce.Account {
     deleteConstraint = "SetNull"
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
   }
   salesforce.FormulaText Simple_Text_Formula__c {
     apiName = "Account.Simple_Text_Formula__c"
@@ -284,7 +284,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     formulaTreatBlanksAs = "BlankAsZero"
-    trackHistory = "false"
+    trackHistory = "true"
     _hidden_value = true
   }
   salesforce.Picklist My_Broken_Picklist__c {
@@ -309,7 +309,7 @@ type salesforce.Account {
     queryable = true
     externalId = false
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
     sorted = false
   }
   salesforce.Checkbox not_used__c {
@@ -318,7 +318,7 @@ type salesforce.Account {
     externalId = false
     label = "not used"
     trackFeedHistory = false
-    trackHistory = "false"
+    trackHistory = "true"
     queryable = false
     updateable = false
     createable = false
