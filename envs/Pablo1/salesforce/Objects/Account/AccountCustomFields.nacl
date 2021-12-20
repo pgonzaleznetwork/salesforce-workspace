@@ -330,4 +330,14 @@ type salesforce.Account {
     _hidden_value = true
   }
   
+  salesforce.Date Expiry_Date__c {
+    apiName = "Account.Expiry_Date__c"
+    label = "Expiry Date"
+    createable = true
+    updateable = true
+    queryable = true
+    externalId = false
+    trackFeedHistory = false
+    trackHistory = "false"
+  }
 }
