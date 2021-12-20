@@ -87,6 +87,11 @@ type salesforce.Account {
         default = false
         label = "Yes"
       },
+      {
+        fullName = "Maybe"
+        default = false
+        label = "Maybe"
+      },
     ]
     restricted = false
     createable = true
