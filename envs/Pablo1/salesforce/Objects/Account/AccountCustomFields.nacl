@@ -329,14 +329,4 @@ type salesforce.Account {
     createable = false
     _hidden_value = true
   }
-  salesforce.Date New_Field__c {
-    apiName = "Account.New_Field__c"
-    label = "New Field"
-    createable = true
-    updateable = true
-    queryable = true
-    externalId = false
-    trackFeedHistory = false
-    trackHistory = "false"
-  }
 }

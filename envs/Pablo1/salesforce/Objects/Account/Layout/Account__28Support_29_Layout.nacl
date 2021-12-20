@@ -78,10 +78,6 @@ salesforce.Layout Account_Account__28Support_29_Layout@bspps {
               behavior = "Edit"
               field = salesforce.Account.field.My_Broken_Picklist__c
             },
-            {
-              behavior = "Edit"
-              field = salesforce.Account.field.New_Field__c
-            },
           ]
         },
         {
