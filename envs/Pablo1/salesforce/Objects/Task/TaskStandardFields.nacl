@@ -338,12 +338,6 @@ type salesforce.Task {
         isActive = true
       },
       {
-        fullName = "Pacific/Fiji"
-        default = false
-        label = "(GMT+13:00) Fiji Summer Time (Pacific/Fiji)"
-        isActive = true
-      },
-      {
         fullName = "Pacific/Tongatapu"
         default = false
         label = "(GMT+13:00) Tonga Standard Time (Pacific/Tongatapu)"
@@ -353,6 +347,12 @@ type salesforce.Task {
         fullName = "Asia/Kamchatka"
         default = false
         label = "(GMT+12:00) Petropavlovsk-Kamchatski Standard Time (Asia/Kamchatka)"
+        isActive = true
+      },
+      {
+        fullName = "Pacific/Fiji"
+        default = false
+        label = "(GMT+12:00) Fiji Standard Time (Pacific/Fiji)"
         isActive = true
       },
       {

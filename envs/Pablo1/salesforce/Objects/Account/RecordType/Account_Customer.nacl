@@ -61,10 +61,6 @@ salesforce.RecordType Account_Customer {
           fullName = "New High"
           default = false
         },
-        {
-          fullName = "Super High"
-          default = false
-        },
       ]
     },
     {
