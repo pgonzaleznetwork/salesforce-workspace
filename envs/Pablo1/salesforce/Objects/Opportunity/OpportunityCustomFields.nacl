@@ -102,7 +102,7 @@ type salesforce.Opportunity {
   }
   salesforce.FormulaText Account_Priority__c {
     apiName = "Opportunity.Account_Priority__c"
-    label = "Account Priority"
+    label = "Account Priority."
     formula = "TEXT( Account.CustomerPriority__c )"
     createable = false
     updateable = false
