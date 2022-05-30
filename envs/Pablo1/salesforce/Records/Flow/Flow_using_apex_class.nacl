@@ -5,10 +5,10 @@ salesforce.Flow Flow_using_apex_class {
     label = "call apex"
     locationX = 174
     locationY = 356
-    actionName = salesforce.ApexClass.instance.FlowActionClass
+    actionName = salesforce.ApexClass.instance.Controller
     actionType = "apex"
   }
-  apiVersion = 53
+  apiVersion = 54
   interviewLabel = "Flow using apex class {!$Flow.CurrentDateTime}"
   label = "Flow using apex class"
   processMetadataValues = [
@@ -16,12 +16,6 @@ salesforce.Flow Flow_using_apex_class {
       name = "BuilderType"
       value = {
         stringValue = "LightningFlowBuilder"
-      }
-    },
-    {
-      name = "CanvasMode"
-      value = {
-        stringValue = "FREE_FORM_CANVAS"
       }
     },
     {
