@@ -12,12 +12,13 @@ public with sharing class AccountAverageCalculator {
 
     public static void registerDOBAfter(List<Contact> newContacts,Map<Id,Contact> oldContacts){
 
-        for(Contact newContact : newContacts){//hello
+        for(Contact newContact : newContacts){//hello world
 
             Contact oldContact = (Contact) oldContacts.get(newContact.Id);
 
             if(oldContact.Birthdate != newContact.Birthdate && newContact.Birthdate != null){
-                accountIds.add(newContact.AccountId);
+               //no longer needed accountIds.add(newContact.AccountId);
+                System.debug('done');
             }
         }
     }
